@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televisions - Energy Consumption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="assets/PowerIcon.png" alt="Power Logo"></a></li>
+                <li><a href="televisions.html" id="tv-link" class="active">Televisions</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Television Energy Consumption</h1>
+        <p>Modern LED TVs consume around 50-150 watts, whereas older plasma TVs used much more energy.</p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Panto Shariar. Built for COS30045.</p>
+        <p>Code assistance: GitHub Copilot (if applicable)</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

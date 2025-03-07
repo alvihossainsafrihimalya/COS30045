@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Energy Consumption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="home-link"><img src="assets/PowerIcon.png" alt="Power Logo"></a></li>
+                <li><a href="televisions.html" id="tv-link">Televisions</a></li>
+                <li><a href="about.html" id="about-link">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to the Appliance Energy Consumption Website</h1>
+        <p>This website provides information on energy consumption of home appliances in Australia.</p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Panto Shariar. Built for COS30045.</p>
+        <p>Code assistance: GitHub Copilot (if applicable)</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
